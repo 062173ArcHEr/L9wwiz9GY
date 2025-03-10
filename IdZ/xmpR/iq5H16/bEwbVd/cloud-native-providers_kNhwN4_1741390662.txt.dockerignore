@@ -76,7 +76,6 @@ typings/
 .yarn-integrity
 .env
 .env.test
-.cache
 index.html
 .next
 .nuxt
