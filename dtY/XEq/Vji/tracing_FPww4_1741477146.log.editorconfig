@@ -28,4 +28,3 @@ trim_trailing_whitespace = false
 
 [*.xml]
 indent_style = tab
-
