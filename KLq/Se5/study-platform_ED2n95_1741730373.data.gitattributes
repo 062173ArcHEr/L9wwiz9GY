@@ -1,7 +1,6 @@
 * text=auto
 *.svg -text
 
-# Make git diff warn about trailing space and tabs in indentation:
 CMakeLists.txt text whitespace=space-before-tab,tab-in-indent,trailing-space
 *.c            text whitespace=space-before-tab,tab-in-indent,trailing-space
 *.cpp          text whitespace=space-before-tab,tab-in-indent,trailing-space
