@@ -52,7 +52,6 @@ To get started contributing:
      --mount type=bind,source="$( pwd )",target=/workspace \
      --workdir=/workspace \
      gcr.io/$(gcloud config get-value project)/make test
-   ```
 
 1. Develop using the following guidelines to help expedite your review:
     1. Ensure that your code adheres to the existing [style](https://google.github.io/styleguide).
