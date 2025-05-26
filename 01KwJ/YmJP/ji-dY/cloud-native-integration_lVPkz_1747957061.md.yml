@@ -18,7 +18,6 @@ reuse-lint:
     - pipx run reuse lint
 
 github-push:
-  stage: push
   image: "dockerhub.devops.telekom.de/alpine/git:2.43.0"
   needs: []
   rules:
