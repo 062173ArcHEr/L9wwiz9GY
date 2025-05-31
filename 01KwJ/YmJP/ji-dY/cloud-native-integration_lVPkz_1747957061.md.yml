@@ -10,7 +10,6 @@ reuse-lint:
   needs: []
   rules:
     - when: always
-  before_script: >-
     python3 -m pip install --user --upgrade pipx && 
     python3 -m pipx ensurepath &&
     source ~/.bashrc
