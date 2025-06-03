@@ -26,7 +26,6 @@ plt.hist(data_train.age_approx,bins=[10,20,30,40,50,60,70,80,90,100,110],edgecol
 plt.axvline(data_train.age_approx.mean(),color='r',linewidth=2)
 plt.tight_layout()
 data_train.image_name.unique().__len__()
-def remove_cats(data_train,col_name):
     temp_df=pd.get_dummies(data_train[col_name])
     data_train=pd.concat([data_train,temp_df],axis=1)
     return data_train
